@@ -92,6 +92,11 @@
   Експорт даних локацій у форматі JSON або CSV.  
   _View: `ExportLocationsView`_
 
+http://127.0.0.1:8000/api/locations/export/?format=csv&download=true
+http://127.0.0.1:8000/api/locations/export/?format=json&download=true
+
+для завантаження
+
 ### 3. Відгуки
 
 - **POST** `/api/locations/<int:location_id>/reviews/`  
